@@ -1,14 +1,20 @@
-// const codeBlocks = Array.from(document.getElementsByTagName('pre'));
 const codeBlocks = Array.from(document.getElementsByTagName('pre'));
 
 
 codeBlocks.forEach(codeBlock => {
   const copyButton = document.createElement("button")
-  //const parentOfButton = document.createElement("div")
-  // parentOfButton.appendChild(copyButton)
+
   copyButton.innerHTML = "Copy"
   copyButton.style = "margin-left:auto; margin-right:0"
-  // parentOfButton.style = "display:flex; flex-direction:flex-end"
   codeBlock.parentElement.insertBefore(copyButton, codeBlock)
+
+  copyButton.onclick = (event) => {
+    var range = document.createRange();
+    range.selectNode(codeBlock);
+    window.getSelection().removeAllRanges(); // clear current selection
+    window.getSelection().addRange(range); // to select text
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges()
+  }
 
 })
