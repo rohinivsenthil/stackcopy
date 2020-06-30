@@ -1,9 +1,17 @@
 <h1 align="center">stackcopy</h1>
 
 <div align="center">
-  <strong>A browser extension to copy code-snippets from StackExchange sites 🔖</strong>
+  <strong>A browser extension to copy code-snippets from Stack Exchange sites 🔖</strong>
 </div>
 
 _______________________________________________________
 
-![Screenshot](screenshot.png)
+#####Copy codes with ease from any Stack Exchange site like
+
+Stack Overflow:
+
+![Screenshot](screenshots/stackoverflow.png)
+
+Code Golf:
+
+![Screenshot](screenshots/codegolf.png)

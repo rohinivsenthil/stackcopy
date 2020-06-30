@@ -6,7 +6,7 @@ codeBlocks.forEach(codeBlock => {
   const wrapper = document.createElement("div")
 
   copyButton.innerHTML = "Copy"
-  copyButton.style = "height:.5rem; width:4rem; font-size:.7rem; background:#ef8236; border:none; margin-bottom:.5rem"
+  copyButton.style = "height:.5rem; width:4rem; font-size:.7rem; border:none; margin-bottom:.5rem"
   wrapper.appendChild(copyButton)
   wrapper.style = "width:100%; display:flex; justify-content:flex-end"
   codeBlock.parentElement.insertBefore(wrapper, codeBlock)
