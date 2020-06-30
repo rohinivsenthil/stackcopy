@@ -6,7 +6,7 @@
 
 _______________________________________________________
 
-#####Copy codes with ease from any Stack Exchange site like
+Copy codes with ease from any Stack Exchange site.
 
 Stack Overflow:
 
