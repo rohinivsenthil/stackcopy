@@ -5,14 +5,14 @@ codeBlocks.forEach(codeBlock => {
   const copyButton = document.createElement("button")
 
   copyButton.innerHTML = "Copy"
-  copyButton.style = "margin-left:auto; margin-right:0"
+  copyButton.style = "height:1rem; width:4rem; font-size:.8rem; background:orange; border:none; margin-bottom:.5rem"
   codeBlock.parentElement.insertBefore(copyButton, codeBlock)
 
   copyButton.onclick = (event) => {
     var range = document.createRange();
     range.selectNode(codeBlock);
-    window.getSelection().removeAllRanges(); // clear current selection
-    window.getSelection().addRange(range); // to select text
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
     document.execCommand("copy");
     window.getSelection().removeAllRanges()
   }
