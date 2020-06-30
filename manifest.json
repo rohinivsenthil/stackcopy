@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "stackcopy",
-  "version": "0.0",
-  "description": "Copy code-snippets from stack exchange sites",
+  "name": "StackCopy",
+  "version": "1.0",
+  "description": "Copy code snippets from any StackExchange site with ease.",
   "icons": {
     "48": "icons/icon.png",
     "96": "icons/icon@2.png"
