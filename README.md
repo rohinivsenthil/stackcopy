@@ -8,10 +8,5 @@ _______________________________________________________
 
 Copy code-snippets to your clipboard with ease from any Stack Exchange site. Find the Firefox Add-on [here](https://addons.mozilla.org/en-US/firefox/addon/stackcopy/).
 
-Stack Overflow:
+![Screenshot](screenshots/screenshot.png)
 
-![Screenshot](screenshots/stackoverflow.png)
-
-Code Golf:
-
-![Screenshot](screenshots/codegolf.png)
