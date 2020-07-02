@@ -1,11 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "StackCopy",
+  "name": "stackcopy",
   "version": "2.0",
   "description": "Copy code snippets from any StackExchange site with ease.",
   "icons": {
-    "48": "icons/icon.png",
-    "96": "icons/icon@2.png"
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png"
   },
   "content_scripts": [
     {
