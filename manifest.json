@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "StackCopy",
-  "version": "1.1",
+  "version": "2.0",
   "description": "Copy code snippets from any StackExchange site with ease.",
   "icons": {
     "48": "icons/icon.png",
@@ -21,6 +21,9 @@
       ],
       "js": [
         "main.js"
+      ],
+      "css": [
+        "main.css"
       ]
     }
   ],

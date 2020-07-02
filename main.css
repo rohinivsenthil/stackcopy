@@ -1,0 +1,17 @@
+.copy-button {
+  font-size: .7rem; 
+  border: none !important; 
+  position: absolute !important;  
+  top: 0.5rem; 
+  right: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8) !important; 
+  color: #767f87 !important;
+} 
+
+.copy-button:hover {
+  color: black !important;
+}
+
+.code-wrapper {
+  position: relative;
+}
