@@ -6,7 +6,7 @@
 
 _______________________________________________________
 
-Copy code-snippets to your clipboard with ease from any Stack Exchange site. Find the Firefox Add-on [here](https://addons.mozilla.org/en-US/firefox/addon/stackcopy/).
+Copy code-snippets to your clipboard with ease from any Stack Exchange site. [Chrome Extension](https://chrome.google.com/webstore/detail/stackcopy/dgkmncnedgjbknkcapmdhjodoklabnbe) and [Firefox Add-on](https://addons.mozilla.org/en-US/firefox/addon/stackcopy/) available.
 
 Stack Overflow:
 ![StackOverflow](/screenshots/stackoverflow.png)
